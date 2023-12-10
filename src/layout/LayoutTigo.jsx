@@ -5,7 +5,7 @@ const LayoutTigo = () => {
     return (
         <>
             <Navbar />
-            <main className="pt-16 p-10 overflow-auto"> {/* Ajuste el padding-top si es necesario */}
+            <main className="pt-5 overflow-auto"> 
                 <Outlet />
             </main>
         </>
