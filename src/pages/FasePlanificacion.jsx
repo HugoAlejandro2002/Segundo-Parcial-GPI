@@ -121,7 +121,6 @@ function FasePlanificacion() {
             <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel = "noreferrer">
                 <h1 className='text-2xl font-bold' style={{ color: '#00377B' }}>Gestión de Riesgos</h1>
             </a>
-            <br/>
 
             <ul className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>
                 <li>Identificación de Riesgos: Riesgos técnicos, de recursos y de tiempo evaluados en impacto y
@@ -144,6 +143,96 @@ function FasePlanificacion() {
                     las estrategias necesarias para su mitigación.
                 </li>
             </ul>
+            <br/>
+
+            <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel = "noreferrer">
+                <h1 className='text-2xl font-bold' style={{ color: '#00377B' }}>Análisis del Tamaño</h1>
+            </a>
+
+            <p className="text-xl font-light text-left py-4" style={{ color: '#717171' }}>
+
+                En el análisis del tamaño del Sistema CRM de TIGO, se empleó la herramienta COCOMO,
+                un modelo de estimación de software que predice el esfuerzo de un producto basándose en parámetros como
+                tamaño, costo, tiempo y calidad. El modelo COCOMO clasifica proyectos en tres tipos: Orgánico,
+                semi-separado y embebido, cada uno representando la complejidad del proyecto, el tamaño del equipo y el
+                entendimiento del problema. Dado que el Sistema CRM de TIGO es considerado un proyecto de tamaño mediano,
+                se optó por el tipo de proyecto semi-separado y el modelo intermedio. Este último implica calcular la cantidad
+                de líneas de código en miles y considerar los Cost Drivers, que miden la experiencia, capacidad y fiabilidad del proyecto
+                y del equipo de trabajo. Para calcular el esfuerzo necesario para completar el proyecto, se aplican fórmulas
+                específicas definidas por el modelo intermedio para proyectos semi-separados.
+
+
+
+            </p>
+
+            <p className="text-xl font-light text-left py-4" style={{ color: '#717171' }}>
+                Para un total de 16 meses, se va a necesitar un total de 13 personas para poder terminar el proyecto del CRM de TIGO.
+            </p>
+
+            <a href="https://docs.google.com/document/d/1KGTHxPwsybFohuLlVXKgVeSX7r8Akobdpf8Fc6xkzxc/edit" target="_blank" rel = "noreferrer">
+                <h1 className='text-2xl font-bold' style={{ color: '#00377B' }}>Análisis del Costo</h1>
+            </a>
+
+            <p className="text-xl font-light text-left py-4" style={{ color: '#717171' }}>
+                Para poder estimar el costo del proyecto, se debe tomar en cuenta tres variables: complejidad, especialización y tiempo.
+
+                Para empezar, tomando en cuenta los salarios base para los desarrolladores por mes, basado en categoría:
+
+            </p>
+
+            <ul className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>
+                <li>Junior: 3500 - 5000 Bs.
+                </li>
+                <li> Normal: 5000 - 7000 Bs.
+                </li>
+                <li>Senior: 7000 - 12000 Bs.</li>
+            </ul>
+
+            <p className="text-xl font-light text-left py-4" style={{ color: '#717171' }}>
+                Esto brinda el análisis de complejidad, y para este caso, debido a la experiencia del equipo de desarrollo, se tomará 4000 Bs. como salario por mes para los desarrolladores (total de 5 desarrolladores).
+
+                Por otro lado, las especializaciones, son las siguientes:
+            </p>
+
+            <ul className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>
+                <li>Chatbot: 2000 Bs.
+                </li>
+                <li> UI/UX: 1000 Bs.
+                </li>
+                <li>FullStack: 2000 Bs.</li>
+            </ul>
+
+            <p className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>
+
+                Debido a que un desarrollador se ocupará del Chatbot, otro del UI/UX, y los tres restantes del desarrollo FullStack.
+
+                Por lo tanto:
+
+            </p>
+
+            <ul className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>
+                <li> 4000 Bs. x 5
+                </li>
+                <li> 20000 Bs. + 2000 Bs. + 1000 Bs. + 2000 Bs. + 2000 Bs. + 2000 Bs.
+                </li>
+            </ul>
+
+            <p className="list-disc pl-6 text-xl font-light pb-4" style={{ color: '#717171' }}>En total: 29000 Bs. al mes, para el desarrollo del proyecto.</p>
+
+
+
+
+
+
+
+
+
+
+
+            <br/>
+
+
+
         </div>
   );
 }
