@@ -1,7 +1,8 @@
 {
   "name": "presentacion-2-parcial",
+  "homepage": "https://hugoalejandro2002.github.io/Segundo-Parcial-GPI/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
